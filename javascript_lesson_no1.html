@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript Lesson No.1</title>
+</head>
+<body>
+    <!-- 
+    this
+    is 
+    HTML 
+    comment
+    -->
+    <h1>selecting HTML elements using JavaScript</h1>
+    this is a normal text 
+    <br>
+    <strong>this is sme text in a strong tag </strong>
+    <hr>
+    <i>this is italic text </i>
+    <br>
+    <q> <strong>Lorem ipsum <i>dolor sit amet</i> , ea doming until epicuri iudicabit nam</strong> </q>
+
+    <form>
+        
+        <input id="user" type="text">
+        <br>
+        <label for="user">name</label> 
+        <textarea></textarea>
+    </form>
+    <style>
+        /* 
+        this
+        is
+        css
+        comment
+        */
+
+        /*
+        to learn
+        background-image
+        border
+        border-top
+        border-bottom
+        overflow
+        float
+        list-style
+        padding-top
+        padding-bottom
+        margin-top
+        margin-bottom
+        
+        >
+        :last-of-type
+        :hover
+
+        
+        */
+        body {
+            background-color: blueviolet;
+            text-align: center;
+            font-size: 2em; 
+        }
+        
+    </style>
+    <script>
+        /*
+        this 
+        is 
+        javascript 
+        multiline
+        comment
+        */
+
+        /* this a multiline comment written in one line */
+
+        //this is javascript oneline comment
+        /*
+            playing with numbers
+                JavaScript Operators:
+                    + sum
+                    - substruct 
+                    * multiply
+                    / divid
+                    ** power
+                    % reminder
+            
+        */
+        var n1 = 1;
+        var n2 = 2;
+        var n3 = 3;
+        var n4 = 4;
+
+        var sum = n1 + n2;
+        console.log("this is sum of", n1, "+", n2, "=", sum)
+        
+        var power = n3 ** n2;
+        console.log("this is", n3, "raised to the power of ",  n2, "=", power);
+
+        var reminder = n4 % n3;
+        console.log("the reminder of ", n4, "divided by", n3, "is equal to", reminder);
+        //playing with strings
+        var s1 = "I";
+        var s2 = "hate";
+        var s3 = "stupid";
+        var s4 = "people";
+        var s5 = "so much";
+
+        var conc = s1 + " " + s2 + " " + s3 + " " + s4 + " " + s5;
+        console.log(conc);
+
+        console.log(s1, s2, s3, s4, s5);
+
+        //document.querySelector("h1").innerHTML  = "edited";
+        //document.querySelector("h1").innerHTML = conc;
+
+        //var myValue = prompt("Enter a sentence");
+       //document.querySelector("h1").innerHTML = myValue;
+
+    </script>
+</body>
+</html>
